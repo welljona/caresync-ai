@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^16.2.7",
-    "@phosphor-icons/react": "2.1.7",
-    "clsx": "2.1.1",
-    "framer-motion": "11.3.19",
-    "next": "^14.2.35",
+    "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "@phosphor-icons/react": "2.1.7",
+    "framer-motion": "11.3.19",
+    "clsx": "2.1.1"
+  },
+  "optionalDependencies": {
+    "@next/swc-win32-x64-msvc": "*"
   },
   "devDependencies": {
     "@types/node": "20.14.12",
